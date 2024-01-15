@@ -1,0 +1,13 @@
+package com.myweb.www.config;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+
+public class RootConfig {
+	
+	// DB설정부분
+	// 지난 과정과의 차이점 : hikariCP사용 / log4jdbc-log4j2 사용
+	
+	@Autowired
+	ApplicationContext applicationContext;
+}
